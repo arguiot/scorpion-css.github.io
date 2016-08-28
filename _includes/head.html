@@ -1,0 +1,16 @@
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.meta %}{{ page.meta | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- title -->
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- style sheets, icons, alternate... -->
+  <link rel="stylesheet" href="https://scorpion-css.github.io/framework/assets/css/scorpion.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="{% if page.icon %}{{ page.icon | prepend: site.baseurl | escape }}{% else %}{{ site.icon | prepend: site.baseurl | escape }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

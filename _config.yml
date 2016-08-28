@@ -1,0 +1,12 @@
+# Welcome to Jekyll!
+
+title: Scorpion.css
+email: scorpion.framework@gmail.com
+description: Scorpion is a beautifull, full feature, and simply awesome front-end css framework for building websites. It is created by some awesome guy, and maintained by him and the awesome github comunity.
+baseurl: ""
+url: "https://scorpion-css.github.io"
+timezone: Australia/NSW
+future: false
+icon: /assets/img/favico.png
+
+markdown: kramdown
