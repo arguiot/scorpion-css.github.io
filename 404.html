@@ -1,0 +1,169 @@
+---
+permalink: /404.html
+---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/Scorpion-css/framework/stable/docs/favico.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      line-height: 1.2;
+      margin: 0;
+    }
+    html {
+        font-family: 'Open Sans', sans-serif;
+        height: 100vh;
+        overflow: hidden;
+        font-size: 16px;
+        width: 100vw;
+        color: #787878;
+    }
+    body {
+      margin: 2em auto;
+      height: 100%;
+      width: 100%;
+      background-color: #efefef;
+    }
+    .logo, .text {
+      width: 50%;
+      display: inline-block;
+      position: absolute;
+    }
+    .logo {
+      left: 6.25%;
+      width: 37.5%;
+      height: 100%;
+    }
+    .text {
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);;
+      -ms-transform: translateY(-50%);;
+      transform: translateY(-50%);;
+    }
+    .logo img {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    h1 {
+      margin-bottom: .1em;
+      font-weight: 400;
+      font-size: 2em;
+      color: #555;
+    }
+    .huge {
+      font-size: 6em;
+      font-weight: 700;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul > li {
+      margin-bottom: .3em;
+    }
+    a {
+      text-decoration: none;
+      color: #27aced;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    nav {
+      background-color: #fff;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      z-index: 4;
+      height: 75px;
+    }
+    nav::after, nav::before {
+      content: ' ';
+      display: table;
+      clear: both;
+    }
+    nav ul {
+      float: right;
+      overflow: hidden;
+      height: 100%;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      -ms-align-items: center;
+      align-items: center;
+    }
+    nav ul li {
+      display: inline-block;
+      padding: 15px 0;
+    }
+    nav ul li a {
+      padding: 15px 40px;
+      color: #888;
+    }
+    .logo-text, .logo-text img {
+      max-height: 50px;
+      width: auto;
+    }
+    .logo-text {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    @media only screen and (max-width: 280px) {
+      h1 {
+        margin: 0 0 0.3em;
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="logo-text">
+      <img src="https://raw.githubusercontent.com/Scorpion-css/framework/stable/docs/assets/img/logo_text.png" alt="Logo">
+    </div>
+    <ul>
+      <li><a href="https://scorpion-css.github.io">Home</a></li>
+      <li><a href="https://scorpion-css.github.io/framework">Framework</a></li>
+      <li><a href="https://scorpion-css.github.io/framework/docs">Documentation</a></li>
+      <li><a href="https://scorpion-css.github.io/blog">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="logo">
+    <img src="https://raw.githubusercontent.com/Scorpion-css/framework/stable/docs/favico.png" alt="Scorpion logo">
+  </div>
+  <div class="text">
+    <h1 class="huge">Oops!</h1>
+    <h1>We can't seem to find the page you're looking for.</h1>
+    <br>
+    <p>Error code: <strong>404</strong></p>
+    <br>
+    <p>Here are some helpfull links instead:</p>
+    <br>
+    <ul>
+      <li><a href="https://scorpion-css.github.io">Home</a></li>
+      <li><a href="https://scorpion-css.github.io/framework">Framework</a></li>
+      <li><a href="https://scorpion-css.github.io/framework/docs">Documentation</a></li>
+      <li><a href="https://scorpion-css.github.io/blog">Blog</a></li>
+      <li><a href="https://github.com/Scorpion-css/">Github</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

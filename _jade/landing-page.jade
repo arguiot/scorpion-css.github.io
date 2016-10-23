@@ -1,0 +1,83 @@
+// output: ../_includes/landing-page.html
+div
+  h1 Scorpion.css
+
+  header
+
+  p.description {{site.description}}
+
+  h1 Time till release
+
+  section.counter
+    span.day
+    span.hour
+    span.min
+    span.sec
+div
+  section
+    h1.tac Simpler, more semantic code
+    p.second-description We believe that the best developers are the lazy developers. That's why we encourage simplicity in our components, so that you can write less, to achieve the same results. To make your components even simpler to write, we highly encourage the usage of the <a href="http://learnjade.com/">jade</a> templating language.
+    .row
+      .col#responsive
+        img(src="/assets/img/responsive-logo.svg" alt="Responsive")
+        hr
+        h2 Fully responsive
+        p Scorpion components scale flawlessly, so that they can be used on any size device, from a phone to a desktop !
+        
+      .col#preprocessor
+        img.sass(src="/assets/img/logos/sass.svg" alt="Sass logo")
+        hr
+        h2 Sassy as can be
+        p Scorpion is a css (and js) library, written entirely in <a href="http://sass-lang.com">Sass</a>. You can quickly get started with our precompiled css, or build upon the sass source code.
+
+      .col#semantic
+        img(src="/assets/img/semantic.svg" alt="Semantic")
+        hr
+        h2 Readable HTML
+        p We made our framework as semantic as we could, to make the code you write more readable, and more pleasant to write.
+div#signup    
+  section#signup
+    h2.tac Subscribe to our mailing list, to know what we're up to !
+    {% include signup.html %}
+div  
+  section#customisability
+    .row
+      .col.al
+        img(src="/assets/img/customize.svg", alt="Sliders")
+        h2 Make Scorpion your own
+        p With tons of 
+          a(href="/theming") theming variables
+          | , and loads of comonents, that you can chose to include (or not), you can customise Scorpion to fit your needs exactly. You can also download one of our pre-made 
+          a(href="/themes") themes
+          | .
+      .col.small
+        h3 Theming examples yet to come!
+  
+div#numbers    
+  section#numbers
+    //- h1.tac Scorpion.css in numbers
+    .row
+      .col
+        img(src="/assets/img/themes.svg", alt="themes")
+        h2 Dozens of 
+          a(href="/templates") templates
+          
+        p Scorpion has loads of pre-made templates ready to be used, to get you up and running as quickly as possible
+      .col
+        img(src="/assets/img/downloads.svg", alt="downloads")
+        h2 Thousands of downloads
+        
+        p Even though scorpion hasn't ben launched yet, we have over 1k 
+          a(href="https://www.npmjs.com/package/scorpion.css") npm
+          |  downloads! 
+      .col
+        img(src="/assets/img/puzzle.svg", alt="puzzle piece")
+        h2 Tons of extra components
+        
+        p Scorpion has a large library of 
+          a(href="/extentions") custom components 
+          |  (we call them extentions), built by us and the community.
+      
+
+section#examples
+  
