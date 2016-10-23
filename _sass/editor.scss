@@ -1,0 +1,56 @@
+
+  .atom {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #283339;
+    overflow: hidden;
+    .sidebar {
+      width: 200px;
+      height: 100%;
+      overflow: hidden;
+      border-right: 2px solid rgba(#fff, .05);
+      img {
+        max-width: 100%;
+      }
+    }
+    ul.tabs {
+      height: 50px;
+      position: absolute;
+      left: 200px;
+      top: 0;
+      li {
+        background-color: transparent;
+        color: #aaa;
+        display: inline-block;
+        padding: 0 25px;
+        width: 110px;
+        p {
+          text-align: center;
+          font-size: 12px;
+          cursor: pointer;
+        }
+        &:hover {
+          border-bottom: 3px solid #379eb1;
+        }
+      }
+    }
+    ul.code {
+      position: absolute;
+      left: 200px;
+      top: 75px;
+      right: 0;
+      overflow-x: scroll;
+      bottom: -20px;
+      li figure.highlight {
+        margin-left: 5px;
+        code {color: #CDD3DE;}
+        .c {color: #656565;}
+        .nt {color: #FF5370;}
+        .na {color: #FFCB6B;}
+        .s {color: #C3E88D;}
+      }
+    }
+  }
+}
