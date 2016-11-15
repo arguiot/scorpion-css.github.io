@@ -18,7 +18,7 @@ future: false
 #   - jekyll-sitemap
 
 # Custom vars
-description:      Scorpion.css is a beautifull, full feature, and simply awesome front-end css framework for building websites. It has been designed by @lucasgruwez, and maintained by him and the awesome github comunity.
+description:      Scorpion.css is a beautifull, full feature, and simply awesome front-end css framework for building websites. It has been designed by @lucasgruwez, @arthur_guiot, and maintained by him and the awesome github comunity.
 current-version:  1.0.0-alpha.7
 code-license:     MIT License
 docs-license:     creative commons license
