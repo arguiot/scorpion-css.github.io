@@ -231,12 +231,14 @@ p.description {
 }
 
 header {
-  background-image: url("https://raw.githubusercontent.com/Scorpion-css/framework/stable/docs/favico.png");
-  background-size: cover;
-  background-position: center;
   margin: 50px auto;
   height: 200px;
   width: 200px;
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+  }
 }
 
 section.counter {
