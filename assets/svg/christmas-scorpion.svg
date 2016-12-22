@@ -7,12 +7,12 @@
 <use xlink:href="#path0_stroke" transform="translate(232 132)" style="mix-blend-mode:normal;"/>
 </g>
 <g id="Ellipse" style="mix-blend-mode:normal;" figma:type="vector">
-<use xlink:href="#path1_fill" transform="translate(455 252)" fill="#EB5757" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path1_fill" transform="translate(455 252)" fill="#F6252D" style="mix-blend-mode:normal;"/>
 <mask id="mask0_outline_ins">
 <use xlink:href="#path1_fill" fill="white" transform="translate(455 252)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path2_stroke_2x" transform="translate(455 252)" fill="#EB5757" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path2_stroke_2x" transform="translate(455 252)" fill="#F6252D" style="mix-blend-mode:normal;"/>
 </g>
 </g>
 <g id="Vector" style="mix-blend-mode:normal;" figma:type="vector">
